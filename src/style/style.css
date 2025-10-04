@@ -24,6 +24,17 @@
             padding: 40px 20px;
         }
 
+
+
+        .logo img {
+            width: 80%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+
+        }
+
         #home {
             background-color: #000;
             text-align: center;
@@ -270,6 +281,11 @@
 
             h2 {
                 font-size: 2em;
+            }
+
+  .logo {
+                width: 150px;
+                height: 150px;
             }
 
             .services-grid {
