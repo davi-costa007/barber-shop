@@ -8,7 +8,6 @@
             font-family: Arial, sans-serif;
             background-color: #000;
             color: #fff;
-            scroll-behavior: smooth;
         }
 
         html{
@@ -17,8 +16,8 @@
 
         .section {
             min-height: 100vh;
-            display: flex;
             flex-direction: column;
+            display: flex;
             justify-content: center;
             align-items: center;
             padding: 40px 20px;
@@ -54,11 +53,11 @@
         }
 
         h1 {
-            font-size: 4em;
+            font-size: 60px;
             color: #ff6600;
             margin-bottom: 20px;
             text-transform: uppercase;
-            letter-spacing: 5px;
+            letter-spacing: 2px;
         }
 
         .tagline {
@@ -87,7 +86,7 @@
             transform: scale(1.05);
         }
 
-        #about {
+        #sobre {
             background-color: #1a1a1a;
         }
 
@@ -98,18 +97,18 @@
             text-align: center;
         }
 
-        .about-content {
+        .bem-vindo{
             max-width: 800px;
             text-align: center;
             line-height: 1.8;
             font-size: 1.2em;
         }
 
-        #services {
+        #serviços {
             background-color: #000;
         }
 
-        .services-grid {
+        .serviços-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
@@ -118,7 +117,7 @@
             margin-top: 40px;
         }
 
-        .service-card {
+        .serviços-card {
             background-color: #1a1a1a;
             padding: 30px;
             border-radius: 15px;
@@ -127,33 +126,33 @@
             text-align: center;
         }
 
-        .service-card:hover {
+        .serviços-card:hover {
             transform: translateY(-10px);
         }
 
-        .service-icon {
+        .serviços-icon {
             font-size: 3em;
             margin-bottom: 20px;
         }
 
-        .service-card h3 {
+        .serviços-card h3 {
             color: #ff6600;
             margin-bottom: 15px;
             font-size: 1.5em;
         }
 
-        .service-card p {
+        .serviços-card p {
             color: #ccc;
             margin-bottom: 15px;
         }
 
-        .price {
+        .preço {
             color: #ff6600;
             font-size: 1.5em;
             font-weight: bold;
         }
 
-        #booking {
+        #agenda {
             background-color: #1a1a1a;
         }
 
@@ -276,11 +275,11 @@
 
         @media (max-width: 768px) {
             h1 {
-                font-size: 2.5em;
+                font-size: 40px;
             }
 
             h2 {
-                font-size: 2em;
+                font-size: 35px;
             }
 
   .logo {
@@ -288,7 +287,7 @@
                 height: 150px;
             }
 
-            .services-grid {
+            .serviços-grid {
                 grid-template-columns: 1fr;
             }
 
